@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex04.Menus.Delegates
 {
@@ -38,7 +34,8 @@ namespace Ex04.Menus.Delegates
         }
         protected void PrintSubMenuPart1()
         {
-            Console.WriteLine(base.Title);
+            Console.Clear();
+            Console.WriteLine(string.Format("-- {0} --", base.Title));
             for(int i = 1; i <  m_MenuItems.Count; i++)
             {
                 Console.WriteLine(string.Format("{0} -> {1}", i, m_MenuItems[i].Title));
@@ -60,7 +57,7 @@ namespace Ex04.Menus.Delegates
             do
             {
                 v_UserInput = Console.ReadLine();
-                if (int.TryParse(v_UserInput, out v_UserChoice) && v_UserChoice <= m_MenuItems.Count && v_UserChoice >= 0)
+                if (int.TryParse(v_UserInput, out v_UserChoice) && v_UserChoice < m_MenuItems.Count && v_UserChoice >= 0)
                 {
                     v_NotValid = false;
                 }

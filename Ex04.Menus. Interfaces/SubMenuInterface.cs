@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex04.Menus.Interfaces
 {
@@ -37,6 +34,7 @@ namespace Ex04.Menus.Interfaces
         }
         protected void PrintSubMenuPart1()
         {
+            Console.Clear();
             Console.WriteLine(base.Title);
             for (int i = 1; i < m_MenuItems.Count; i++)
             {
@@ -59,7 +57,7 @@ namespace Ex04.Menus.Interfaces
             do
             {
                 v_UserInput = Console.ReadLine();
-                if (int.TryParse(v_UserInput, out v_UserChoice) && v_UserChoice <= m_MenuItems.Count && v_UserChoice >= 0)
+                if (int.TryParse(v_UserInput, out v_UserChoice) && v_UserChoice < m_MenuItems.Count && v_UserChoice >= 0)
                 {
                     v_NotValid = false;
                 }

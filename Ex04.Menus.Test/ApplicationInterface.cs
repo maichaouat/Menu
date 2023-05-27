@@ -1,40 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Ex04.Menus.Interfaces;
+﻿using Ex04.Menus.Interfaces;
 
 namespace Ex04.Menus.Test
 {
-    public class Application
+    public class ApplicationInterface
     {
         public class ShowDate : IApplicationFunction
         {
             public void FuncInApplication()
             {
-
+                ApplicationMethods.ShowDate();
             }
         }
         public class ShowTime : IApplicationFunction
         {
             public void FuncInApplication()
             {
-
+                ApplicationMethods.ShowTime();
             }
         }
         public class ShowVersion : IApplicationFunction
         {
             public void FuncInApplication()
             {
-
+                ApplicationMethods.ShowVersion();
             }
         }
         public class CountSpaces : IApplicationFunction
         {
             public void FuncInApplication()
             {
-
+                ApplicationMethods.CountSpaces();
             }
         }
     }

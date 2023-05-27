@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex04.Menus.Delegates
 {
@@ -26,6 +22,8 @@ namespace Ex04.Menus.Delegates
         internal override void Activate()
         {
             OnChosen();
+            Console.WriteLine("\nPress any key to continue");
+            Console.ReadLine();
             m_Back.Activate();
         }
         protected virtual void OnChosen()
