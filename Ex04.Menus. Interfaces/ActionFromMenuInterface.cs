@@ -19,8 +19,9 @@ namespace Ex04.Menus.Interfaces
             }
         }
 
-        public ActionFromMenuInterface(string i_Title) : base(i_Title)
+        public ActionFromMenuInterface(string i_Title, IApplicationFunction i_ApplicationFunction) : base(i_Title)
         {
+            m_ApplicationFunction = i_ApplicationFunction;
         }
 
         internal override void Activate()
