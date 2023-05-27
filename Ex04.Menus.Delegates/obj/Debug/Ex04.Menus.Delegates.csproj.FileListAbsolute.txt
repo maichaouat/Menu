@@ -1,0 +1,7 @@
+C:\Users\97252\Desktop\תרגילי בית\שנה ב\c#\B23 Ex04 MaiChaouat 318964194 RonYakov 314710922\Ex04.Menus.Delegates\obj\Debug\Ex04.Menus.Delegates.csproj.AssemblyReference.cache
+C:\Users\97252\Desktop\תרגילי בית\שנה ב\c#\B23 Ex04 MaiChaouat 318964194 RonYakov 314710922\Ex04.Menus.Delegates\obj\Debug\Ex04.Menus.Delegates.csproj.CoreCompileInputs.cache
+C:\Users\97252\Desktop\תרגילי בית\שנה ב\c#\B23 Ex04 MaiChaouat 318964194 RonYakov 314710922\Ex04.Menus.Delegates\bin\Debug\Ex04.Menus.Delegates.dll.config
+C:\Users\97252\Desktop\תרגילי בית\שנה ב\c#\B23 Ex04 MaiChaouat 318964194 RonYakov 314710922\Ex04.Menus.Delegates\bin\Debug\Ex04.Menus.Delegates.dll
+C:\Users\97252\Desktop\תרגילי בית\שנה ב\c#\B23 Ex04 MaiChaouat 318964194 RonYakov 314710922\Ex04.Menus.Delegates\bin\Debug\Ex04.Menus.Delegates.pdb
+C:\Users\97252\Desktop\תרגילי בית\שנה ב\c#\B23 Ex04 MaiChaouat 318964194 RonYakov 314710922\Ex04.Menus.Delegates\obj\Debug\Ex04.Menus.Delegates.dll
+C:\Users\97252\Desktop\תרגילי בית\שנה ב\c#\B23 Ex04 MaiChaouat 318964194 RonYakov 314710922\Ex04.Menus.Delegates\obj\Debug\Ex04.Menus.Delegates.pdb
