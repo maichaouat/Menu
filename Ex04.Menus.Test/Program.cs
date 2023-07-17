@@ -40,7 +40,7 @@ namespace Ex04.Menus.Test
             ActionFromMenuInterface v_ShowDateInterface = new ActionFromMenuInterface("Show Date", v_ShowDateMethod);
             ActionFromMenuInterface v_ShowTimeInterface = new ActionFromMenuInterface("Show Time", v_ShowTimeMethod);
             ActionFromMenuInterface v_ShowVersionInterface = new ActionFromMenuInterface("Show Version", v_ShowVersionMethod);
-            ActionFromMenuInterface v_CountSpacesInterface = new ActionFromMenuInterface("CountSpaces", v_CountSpacesMethod);
+            ActionFromMenuInterface v_CountSpacesInterface = new ActionFromMenuInterface("Count Spaces", v_CountSpacesMethod);
             v_MainMenuInterface.AddNewSubMenu(v_DateAndTimeInterface);
             v_MainMenuInterface.AddNewSubMenu(v_VersionAndSpacesInterface);
             v_DateAndTimeInterface.AddNewAcetionFromMenu(v_ShowDateInterface);
