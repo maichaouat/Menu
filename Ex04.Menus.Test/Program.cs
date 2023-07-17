@@ -16,7 +16,7 @@ namespace Ex04.Menus.Test
             ActionFromMenuDelegate v_ShowDateDelegate = new ActionFromMenuDelegate("Show Date");
             ActionFromMenuDelegate v_ShowTimeDelegate = new ActionFromMenuDelegate("Show Time");
             ActionFromMenuDelegate v_ShowVersionDelegate = new ActionFromMenuDelegate("Show Version");
-            ActionFromMenuDelegate v_CountSpacesDelegate = new ActionFromMenuDelegate("CountSpaces");
+            ActionFromMenuDelegate v_CountSpacesDelegate = new ActionFromMenuDelegate("Count Spaces");
             v_ShowDateDelegate.ChosenNotifier += ApplicationDelegate.ShowDate_Chosen;
             v_ShowTimeDelegate.ChosenNotifier += ApplicationDelegate.ShowTime_Chosen;
             v_ShowVersionDelegate.ChosenNotifier += ApplicationDelegate.ShowVersion_Chosen;
